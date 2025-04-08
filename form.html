@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1> STUDENT FORM </h1>
+    <form>
+        <table border="3" width="25%">
+            <tr>
+                <th> Name </th>
+                <th> <input type="text" placeholder="Enter your Name" style="width: 96%;" id="name"> </th>
+            </tr>
+            <tr>
+                <th> Age </th>
+                <th> <input type="number" placeholder="Enter your Age" style="width: 96%;" id="age"> </th>
+            </tr>
+            <tr>
+                <th> Gender </th>
+                <th> <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </th>
+            </tr>
+            <tr>
+                <th> Course </th>
+                <th> <select style="width: 100%;" id="course">
+                        <option> C++ </option>
+                        <option> Java </option>
+                        <option> JavaScript </option>
+                    </select></th>
+            </tr>
+            <tr>
+                <th> E-mail </th>
+                <th> <input type="email" placeholder="Enter your email" style="width: 96%;" id="email"> </th>
+            </tr>
+            <tr>
+                <th colspan="2"> <input value="Save" type="button" id="btn" style="width: 100%;" onclick="Clicky()">
+                </th>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <table border = "3" width="25%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>E-mail</th>
+                <th >Action</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Gender</td>
+                <td>Course</td>
+                <td>E-mail</td>
+                <td><button onclick="remove(event)" style="background-color: red;">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="form.js"></script>
+
+</html>

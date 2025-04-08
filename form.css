@@ -1,0 +1,30 @@
+body{
+    background-image: url('doma.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color : aquamarine;
+    text-align: center;
+}
+th{
+    color: red;
+}
+#btn{
+    background-color: aquamarine;
+    color: red;
+}
+#btn:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+table{
+    background-color: greenyellow;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 5px;
+}
