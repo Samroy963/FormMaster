@@ -1,4 +1,4 @@
-# 🎓 Student Form Web App
+# 🎓 FormMaster
 
 A simple and responsive web-based application to collect, display, and manage student information using HTML, CSS, and JavaScript.
 
