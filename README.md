@@ -25,5 +25,4 @@ A simple and responsive web-based application to collect, display, and manage st
    - `form.js`
 3. Open `index.html` in your browser.
 
-## 📁 File Structure
 
